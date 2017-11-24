@@ -5,29 +5,43 @@
 	<title></title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
-
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
+
 <body>
-<head class="container">
-	<div class="container header"></div>  <!-- верхня полоска -->
-	<div class="menu">
-		<nav>
+<header class="container">
+	<div class="menu row justify-content-between align-items-start">
+		<!--Лівий список -->
+		<div class="col-lg-7 col-md-8 ">
 			<ul>
-				<li><a href="#">Магазин</a></li>
-				<li><a href="#">Доставка та оплата</a></li>
-				<li><a href="#">Модницам</a></li>
-				<li><a href="#">Новинки</a></li>
-				<li><a href="#">контакти</a></li>
+				<li><a href="#">Магазин<i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+				<li><a href="#">Доставка та оплата
+<i class="fa fa-truck" aria-hidden="true"></i>
+</a></li>
+				<li><a href="#">Модницам <i class="fa fa-star" aria-hidden="true"></i></a></li>
+				<li><a href="#">Новинки <i class="fa fa-newspaper-o" aria-hidden="true"></i></a></li>
+				<li><a href="#">Контакти <i class="fa fa-address-card-o" aria-hidden="true"></i></a></li>
 			</ul>
-		</nav>
+		</div>
+		<!--Правий список -->
+		<div class="col-lg-3 col-md-4">
+			<ul>
+				<li><a href="#">Список бажань <i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+				<li><a href="#">Увійти <i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
 	</div>
-	<div class="content-header">
+
+
+
+
+	<div class="content-header row">
 		<div class="phones"></div>
 		<img src="" alt="">
 		<input type="text">
 		<div class="basket"></div>
 	</div>
-</head>
+</header>
 
 </body>
 </html>
