@@ -2,6 +2,23 @@
   margin: 0;
   padding: 0;
 }
-.container{
-  color:#1133af;
+header{
 }
+ ul{list-style: none;}
+ a{text-decoration: none;}
+
+nav{
+  border-radius: 3px;
+}
+
+  ul li a{
+   font-size: 10pt;
+
+   color: #bb2424;
+ }
+  ul li a:hover{
+    border-radius: 3px;
+    background-color: rgba(96, 59, 95, 0.04);
+    text-decoration: none;
+    color: #a82626;
+ }
