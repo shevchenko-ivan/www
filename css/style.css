@@ -3,24 +3,22 @@
   padding: 0;
 }
 header{
-  width: 90%;
-  border-top: 2px solid  #e05e5e;
 }
  ul{list-style: none;}
  a{text-decoration: none;}
 
+nav{
+  border-radius: 3px;
+}
+
   ul li a{
    font-size: 10pt;
-   margin-left: 15px;
+
    color: #bb2424;
  }
   ul li a:hover{
     border-radius: 3px;
     background-color: rgba(96, 59, 95, 0.04);
     text-decoration: none;
-    color: #9e4d4d;
+    color: #a82626;
  }
-.menu{
-  height:40px;
-  border-bottom: 1px solid  #d7d7d7;
-}
