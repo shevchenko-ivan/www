@@ -9,16 +9,15 @@ header{
 
 nav{
   border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-  ul li a{
-   font-size: 10pt;
+nav a{
+  font-size: 10pt;
+  color: rgb(134, 65, 50);
+}
 
-   color: #bb2424;
- }
-  ul li a:hover{
+  nav a:hover{
     border-radius: 3px;
     background-color: rgba(96, 59, 95, 0.04);
-    text-decoration: none;
-    color: #a82626;
  }
