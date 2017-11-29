@@ -12,8 +12,7 @@ a {
 }
 
 nav {
-    border-radius: 3px;
-    box-shadow: 0 0 5px rgba(223, 175, 220, 0.5);
+    border-bottom: 1px solid rgba(31, 26, 26, 0.25);
 }
 
 body {
@@ -38,22 +37,18 @@ nav a:hover {
 }
 
 .head{
-    background-color: #7a3131;
 }
 
 .cart p{
-    text-align: center;
-    font-size: 12pt;
+    font-size: 1rem;
 }
 
 .cart span{
-    float: right;
     position: absolute;
-    margin: 0px auto;
 }
 .cart img{
-    width: 60px;
-    height: 60px;
+    width: 3.5rem;
+    height: 3.5rem;
 }
 
 .bloc1 {
@@ -66,5 +61,5 @@ nav a:hover {
 }
 
 .bloc3 {
-    background-color: #ed0d0d;
+
 }

@@ -20,5 +20,16 @@
 /****************************************************** Адаптив (480) **************************************************************************************************/
 
 @media screen and (max-width: 480px) {
+    .bloc3 span button{
+        width: 4rem;
+        font-size: .8rem;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .cart img{
+        width: 3.5rem;
+        height: 2.7rem;
+    }
 
 }
