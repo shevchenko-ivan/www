@@ -45,6 +45,7 @@ nav a:hover {
 
 .cart span{
     position: absolute;
+    margin-left: 2.5rem;
 }
 .cart img{
     width: 3.5rem;
