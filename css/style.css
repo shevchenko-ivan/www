@@ -36,31 +36,29 @@ nav a:hover {
     color: rgb(255, 255, 255);
 }
 
-.head{
+.head {}
+
+.cart p, .bloc3 p {
+    font-size: .8rem;
 }
 
-.cart p{
-    font-size: 1rem;
-}
-
-.cart span{
+.cart span, .bloc3 span {
     position: absolute;
     margin-left: 2.5rem;
 }
-.cart img{
-    width: 3.5rem;
+
+.cart img, .bloc3 img {
+    width: 3rem;
     height: 3.5rem;
 }
 
-.bloc1 {
+.bloc1 {}
 
-    background-color: #22a452;
+.bloc1 img {
+    width: 4rem;
+    height: 5rem;
 }
 
-.bloc2 {
-    background-color: #bef40a;
-}
+.bloc2 {}
 
-.bloc3 {
-
-}
+.bloc3 {}
