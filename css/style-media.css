@@ -7,9 +7,12 @@
 
 /****************************************************** Адаптив (992) **************************************************************************************************/
 
-@media screen and (max-width: 992px) {
-    .bloc1 img {
+@media screen and (max-width: 1024px) {
+    .logo img {
         display: none;
+    }
+    .cart p, .heart p {
+        font-size: .7rem;
     }
 
 }
@@ -17,20 +20,24 @@
 /****************************************************** Адаптив (768) **************************************************************************************************/
 
 @media screen and (max-width: 768px) {
-    .bloc1 img {
+    .logo img {
         display: none;
     }
+    .cart p, .heart p {
+        font-size: .8rem;
+    }
+
 
 }
 
 /****************************************************** Адаптив (480) **************************************************************************************************/
 
 @media screen and (max-width: 480px) {
-    .bloc3 span button{
+    .heart span button{
         width: 4rem;
         font-size: .8rem;
     }
-    .bloc1 img {
+    .logo img {
         display: none;
     }
 
@@ -40,7 +47,7 @@
         width: 3.5rem;
         height: 2.7rem;
     }
-    .bloc1 img {
+    .logo img {
         display: none;
     }
 
