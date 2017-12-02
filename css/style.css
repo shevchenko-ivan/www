@@ -162,3 +162,7 @@ nav{
  .design a {
      color: #fff;
  }
+ @media (max-width: 469px) { /* если максимальное разрешение экрана составит 469 пикселей */
+  body {font: .9em/1em "Helvetica Neue",Arial,Helvetica,sans-serif;} /* меняется шрифт */
+  aside {display: none;} /* боковая колонка исчезает */
+}
