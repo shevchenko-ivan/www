@@ -22,13 +22,6 @@ ul li a {
     color: #bb2424;
 }
 
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 56px;
-}
 
 ul li a:hover {
     border-radius: 3px;
@@ -41,10 +34,12 @@ ul li a:hover {
 
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(http://fonts.googleapis.com/css?family=Gudea);
-html, body {
-    height: 100%;
-}
 
+.ddd{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(176, 66, 83);
+}
 .wrapper {}
 
 .footer1 {
