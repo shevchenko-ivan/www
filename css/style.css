@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -25,6 +26,23 @@ nav{
 
  @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
  @import url(http://fonts.googleapis.com/css?family=Gudea);
+html, body
+{
+  height: 100%;
+
+}
+.wrapper
+{
+  min-height: 100%;
+  position: relative;
+}
+.footer1   {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 56px;
+}
  .footer1 {
      background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
  	padding-top: 40px;
@@ -152,6 +170,7 @@ nav{
      min-height: 30px;
      padding: 7px 0;
  }
+
  .design {
      color: #fff;
      line-height: 30px;
@@ -162,7 +181,3 @@ nav{
  .design a {
      color: #fff;
  }
- @media (max-width: 469px) { /* если максимальное разрешение экрана составит 469 пикселей */
-  body {font: .9em/1em "Helvetica Neue",Arial,Helvetica,sans-serif;} /* меняется шрифт */
-  aside {display: none;} /* боковая колонка исчезает */
-}
