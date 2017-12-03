@@ -15,12 +15,17 @@
 	<script type="text/javascript" href="js/bodstsrap.min.js"></script>
 
 </head>
+
 <body>
 	<header class="container">
 		<nav class="navbar navbar-expand-md navbar-light">
+			<div class="navbar-brand">
+				<a href="#">UA</a>
+				<a href="#">RU</a>
+			</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
+		<span class="navbar-toggler-icon"></span>
+		</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
 					<a class="nav-item nav-link active text-dark" href="#">Магазин</a>
@@ -31,14 +36,6 @@
 				<div class="navbar-nav ml-auto">
 					<a class="nav-item nav-link text-dark" href="#">Сподобалось</a>
 					<a class="nav-item nav-link text-dark" href="#">Увійти</a>
-				</div>
-				<div class="btn-group btn-group-sm " role="group">
-					<label class="btn btn-secondary">
-						<button type="button" class="btn btn-secondary btn-sm" id="ua">УКР</button>
-					</label>
-					<label class="btn btn-secondary">
-						<button type="button" class="btn btn-secondary btn-sm" id="ru">РУС</button>
-					</label>
 				</div>
 			</div>
 		</nav>
@@ -51,8 +48,8 @@
 					<div class="input-group">
 						<input type="text" class="form-control" placeholder="Пошук..." aria-label="Search for...">
 						<span class="input-group-btn">
-							<button class="btn btn-secondary" type="button">Пошук</button>
-						</span>
+						<button class="btn btn-secondary" type="button">Пошук</button>
+					</span>
 					</div>
 				</div>
 				<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 order-3 order-md-3 text-center heart">
@@ -67,105 +64,51 @@
 				</div>
 			</div>
 			<script type="text/javascript">
-
 			</script>
 		</div>
 	</header>
-	<div class="ddd">
-		fff
-	</div>
-<footer class="row">
-	<div class="container">
-
-		<div class="row">
-			<!-- row -->
-
-			<div class="col-lg-3 col-md-3">
-				<!-- widgets column left -->
-				<ul class="list-unstyled clear-margins">
-					<!-- widgets -->
-
-					<li class="widget-container widget_nav_menu">
-						<!-- widgets list -->
-
-						<h1 class="title-widget">Каталог</h1>
-
-						<ul>
-							<li><a href="#"><i class="fa fa-angle-double-right"></i> Головні убори</a></li>
-							<li><a href="#"><i class="fa fa-angle-double-right"></i> Аксесуари</a></li>
-							<li><a href="#"><i class="fa fa-angle-double-right"></i> Жіночий одяг</a></li>
-							<li><a href="#"><i class="fa fa-angle-double-right"></i> Жіноче взуття</a></li>
-							<li><a href="#"><i class="fa fa-angle-double-right"></i> Розпродаж</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-
-
-			<div class="col-lg-3 col-md-3">
-				<!-- widgets column left -->
-				<ul class="list-unstyled clear-margins">
-					<!-- widgets -->
-
-					<li class="widget-container widget_nav_menu">
-						<!-- widgets list -->
-
-						<h1 class="title-widget">Про нас</h1>
-
-						<ul>
-							<li><a href="#"><i class="fa fa-angle-double-right"></i> Магазин</a></li>
-							<li><a href="#"><i class="fa fa-angle-double-right"></i> Модницям</a></li>
-							<li><a href="#"><i class="fa fa-angle-double-right"></i> Новини</a></li>
-							<li><a href="#"><i class="fa fa-angle-double-right"></i> Доставка та оплата</a></li>
-							<li><a href="#"><i class="fa fa-angle-double-right"></i> Контакти</a></li>
-							<li><a href="#"><i class="fa fa-angle-double-right"></i> Карта сайта</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-
-			<div class="col-lg-3 col-md-3">
-				<!-- widgets column center -->
-				<ul class="list-unstyled clear-margins">
-					<!-- widgets -->
-					<li class="widget-container widget_recent_news">
-						<!-- widgets list -->
-						<h1 class="title-widget">Наші контакти </h1>
-						<div class="footerp">
-							<p><b>Email :</b> <a href="mailto:brendemoziy@yandex.ru">brendemoziy@yandex.ru</a></p>
-							<p><b>Оператор </b>
-								<b style="color:rgba(9, 9, 9, 0.29)">(8AM to 10PM):</b> +380502232658 </p>
-						</div>
-						<div class="social-icons">
-							<ul class="nomargin">
-								<a href="#"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
-								<a href="#"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
-								<a href="#"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
-								<a href="#"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
-							</ul>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="footer-bottom">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-					<div class="copyright">
-						© 2017 Усі права захищені
+	<footer>
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-4 col-lg-3 widget_nav_menu">
+					<p class="title-widget text-center">Каталог</p>
+					<ul class="list-unstyled">
+						<li><a href="#">Головні убори</a></li>
+						<li><a href="#">Жіночий одяг</a></li>
+						<li><a href="#">Аксесуари</a></li>
+						<li><a href="#">Жіноче взуття</a></li>
+						<li><a href="#">Розпродаж</a></li>
+					</ul>
+				</div>
+				<div class="col-4 col-lg-3 widget_nav_menu">
+					<p class="title-widget text-center">Про нас</p>
+					<ul class="list-unstyled">
+						<li><a href="#">Магазин</a></li>
+						<li><a href="#">Новини</a></li>
+						<li><a href="#">Доставка та оплата</a></li>
+						<li><a href="#">Контакти</a></li>
+					</ul>
+				</div>
+				<!-- visibel -->
+				<div class="col-4 col-lg-3">
+					<p class="title-widget text-center">Контакти </p>
+					<div class="footerp">
+						<p>Email : <a href="mailto:mail@gmail.com">mail@gmail.com</a></p>
+						<p>Оператор +380502232658 </p>
 					</div>
 				</div>
 			</div>
+			<div class="text-center footer-bottom ">
+					© 2017 Усі права захищені
+			</div>
 		</div>
-	</div>
-</footer>
 
+	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

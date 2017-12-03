@@ -20,6 +20,13 @@
 /****************************************************** Адаптив (768) **************************************************************************************************/
 
 @media screen and (max-width: 768px) {
+    .widget_nav_menu ul li {
+        padding-left: 25%;
+        font-size: .65rem;
+    }
+    .title-widget {
+        font-size: 1.15rem;
+    }
     .logo img {
         display: none;
     }
@@ -33,6 +40,13 @@
 /****************************************************** Адаптив (480) **************************************************************************************************/
 
 @media screen and (max-width: 480px) {
+    .title-widget {
+        font-size: 1rem;
+    }
+    .widget_nav_menu ul li {
+        padding-left: 0%;
+        font-size: .6rem;
+    }
     .heart span button{
         width: 4rem;
         font-size: .8rem;
@@ -49,6 +63,12 @@
     }
     .logo img {
         display: none;
+    }
+    .title-widget {
+        font-size: .8rem;
+    }
+    .widget_nav_menu ul li {
+        font-size: .58rem;
     }
 
 }
