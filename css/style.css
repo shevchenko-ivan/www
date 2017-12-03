@@ -26,7 +26,7 @@ nav{
 
  @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
  @import url(http://fonts.googleapis.com/css?family=Gudea);
-html, body
+/*html, body
 {
   height: 100%;
 
@@ -42,7 +42,7 @@ html, body
   bottom: 0;
   width: 100%;
   height: 56px;
-}
+}  */
  .footer1 {
      background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
  	padding-top: 40px;
