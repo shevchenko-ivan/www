@@ -20,33 +20,40 @@
 /****************************************************** Адаптив (768) **************************************************************************************************/
 
 @media screen and (max-width: 768px) {
-    .widget_nav_menu ul li {
-        padding-left: 25%;
-        font-size: .65rem;
-    }
-    .title-widget {
-        font-size: 1.15rem;
-    }
     .logo img {
         display: none;
     }
     .cart p, .heart p {
         font-size: .8rem;
     }
+    .widget_nav_menu ul li {
+        padding-left: 25%;
+        font-size: .65rem;
+    }
+    .contact{
+        font-size: .85rem;
+    }
+    .title-widget {
+        font-size: 1.15rem;
+    }
 
+}
+@media screen and (max-width: 576px) {
+    .serch_main{
+        margin:10px 0;
+    }
 
+    .cart img, .heart img {
+        margin-top: .1rem;
+        width: 2rem;
+        height: 2rem;
+    }
 }
 
 /****************************************************** Адаптив (480) **************************************************************************************************/
 
 @media screen and (max-width: 480px) {
-    .title-widget {
-        font-size: 1rem;
-    }
-    .widget_nav_menu ul li {
-        padding-left: 0%;
-        font-size: .6rem;
-    }
+
     .heart span button{
         width: 4rem;
         font-size: .8rem;
@@ -54,13 +61,20 @@
     .logo img {
         display: none;
     }
+    .title-widget {
+        font-size: .8rem;
+    }
+    .widget_nav_menu ul li {
+        padding-left: 0%;
+        font-size: .6rem;
+    }
+    .contact{
+        font-size: .6rem;
+    }
 
 }
 @media screen and (max-width: 320px) {
-    .cart img{
-        width: 3.5rem;
-        height: 2.7rem;
-    }
+
     .logo img {
         display: none;
     }
@@ -68,6 +82,9 @@
         font-size: .8rem;
     }
     .widget_nav_menu ul li {
+        font-size: .58rem;
+    }
+    .contact{
         font-size: .58rem;
     }
 
