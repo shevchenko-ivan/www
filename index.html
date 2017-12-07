@@ -20,7 +20,7 @@
 	<header class="container-fluid">
 		<nav class="navbar navbar-expand-md navbar-light">
 			<div class="navbar-brand">
-				<a href="index.html">UA</a>
+				<a href="index.html" >UA</a>
 				<a href="#">RU</a>
 			</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 	aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@
 				</div>
 			</div>
 		</nav>
-		<div class="container-fluid">
+		<div class="container-fluid ">
 			<div class="row justify-content-center">
 				<div class="col-xl-3 col-lg-2 col-md-2 col-sm-0 col-0 order-5 order-lg-1  logo">
 					<img src="img/icon.png" alt="">
@@ -65,6 +65,27 @@
 		</div>
 	</header>
 	<content>
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Оформлення замовлення</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						...
+					</div>
+					<div class="modal-footer justify-content-center">
+						<button type="button" class="btn  btn-danger">Оформити замовлення</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- tovaru -->
 		<div class="tov ">
 			<div class="con">
 				<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
@@ -74,6 +95,19 @@
 			</div>
 			<div class="tov_info ">
 				<p class="text-center text">Платье HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, accusamus.</p>
+				<p class="text-center">Размер: L</p>
+				<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">ЗАМОВИТИ</button>
+			</div>
+		</div>
+		<div class="tov ">
+			<div class="con">
+				<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
+				<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+			</div>
+			<div class="tov_info ">
+				<p class="text-center text">Платье HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, accusamus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, similique?</p>
 				<p class="text-center">Размер: L</p>
 				<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
 			</div>
@@ -86,23 +120,10 @@
 				<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
 			</div>
 			<div class="tov_info ">
-				<p class="text-center text">Платье HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, accusamus.</p>
+				<p class="text-center text">Платье HM 0470607 Зеленое </p>
 				<p class="text-center">Размер: L</p>
-				<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
 			</div>
-		</div>
-		<div class="tov ">
-			<div class="con">
-				<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
-				<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
-				<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
-				<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
-			</div>
-			<div class="tov_info ">
-				<p class="text-center text">Платье HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, accusamus.</p>
-				<p class="text-center">Размер: L</p>
-				<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
-			</div>
+			<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
 		</div>
 		<div class="tov ">
 			<div class="con">
@@ -254,7 +275,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="bottom">
+		<div class="bottom text-center">
 			<p>	© 2017 Усі права захищені</p>
 		</div>
 	</footer>
