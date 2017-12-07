@@ -61,6 +61,7 @@
     .logo img {
         display: none;
     }
+
     .title-widget {
         font-size: .8rem;
     }
@@ -77,6 +78,9 @@
 
     .logo img {
         display: none;
+    }
+    .cart p, .heart p {
+        font-size: .7rem;
     }
     .title-widget {
         font-size: .8rem;
