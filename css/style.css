@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas: "header header header header header" "sidebar content content content content" "sidebar content content content content" "footer footer footer footer footer";
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    border-bottom: 1px solid rgba(31, 26, 26, 0.25);
+}
+
+nav a {
+    font-size: 10pt;
+    color: rgb(134, 65, 50);
+}
+
+nav a:hover {
+    border-radius: 3px;
+    background-color: rgba(96, 59, 95, 0.04);
+}
+
+nav .navbar-brand a {
+    padding: .3rem;
+    border-radius: .2rem;
+    background-color: #27719a;
+    font-size: .7rem;
+    color: #ffffff;
+}
+
+nav .navbar-brand a:visited[href="index.html"] {
+    background-color: #204357;
+}
+
+.cart p, .heart p {
+    font-size: 10pt;
+}
+
+.cart span, .heart span {
+    position: absolute;
+    margin-left: 2.5rem;
+}
+
+.cart img, .heart img {
+    margin-top: .5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.logo img {
+    width: 4rem;
+    height: 5rem;
+}
+
+/*------------------------Sidebar--------------------------------------*/
+
+.sidebar {
+    background-color: #fff;
+    grid-area: sidebar;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 400px;
+    grid-row-gap: .5rem;
+    margin-top: 2rem;
+}
+
+.view, .manufacturer, .size, .price {
+    border: 1px solid rgba(67, 65, 69, 0.14);
+    padding: 15px 30px;
+}
+
+/*--------------------CheckBox---------------------*/
+
+.sidebar label {
+    display: inline-block;
+    margin-left: 1rem;
+    width: 100%;
+    font-size: 12pt;
+}
+.sidebar p{
+    font-size: 15pt;
+}
+
+.sidebar label:hover{
+    color: #27719a;
+}
+.sidebar input {
+    display: none;
+}
+
+.sidebar i {
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    top: 6px;
+    right: 10px;
+}
+
+.sidebar i::before {
+    content: "";
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    right: 3px;
+    border-radius: 4px;
+    position: absolute;
+    background: #27719a;
+    transform: scale(0);
+    opacity: 0;
+    transition: .3s;
+}
+
+input:checked+i::before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/*--------------------CheckBox---------------------*/
+
+/*------------------------Sidebar--------------------------------------*/
+
+/*------------------------content--------------------------------------*/
+
+content {
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+    grid-auto-rows: auto;
+    grid-gap: 20px;
+    grid-area: content;
+}
+
+.tov {
+    border-radius: 10px;
+    border: 1px solid rgba(67, 65, 69, 0.14);
+    display: grid;
+}
+
+.con {
+    display: inline-grid;
+    grid-template-columns: 65px;
+    grid-template-areas:
+    "img1 img img"
+    "img2 img img"
+    "img3 img img";
+    grid-gap: 5px;
+}
+
+.img {
+    border-radius: 10px;
+    grid-area: img;
+}
+
+.img1, .img2, .img3 {
+    align-self: start;
+    border-radius: 10px;
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.tov_info {
+    display: grid;
+    align-content: end;
+}
+
+.tov button {
+    margin-bottom: 1.35rem;
+    justify-self: center;
+    align-self: end;
+}
+
+/*------------------------content--------------------------------------*/
+
+/*------------------------footer--------------------------------------*/
+
+footer {
+    margin-top: 2rem;
+    grid-area: footer;
+}
+
+.title-widget {
+    color: #0e0e0e;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.widget_nav_menu ul li {
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: .2rem;
+    padding-bottom: .2rem;
+    padding-left: 35%;
+}
+
+.bottom {
+    height: 2.7rem;
+    background-color: #204357;
+    color: #fff;
+    font-size: .8rem;
+    padding: 8px;
+}
+
+/*------------------------footer--------------------------------------*/
