@@ -56,7 +56,9 @@ nav .navbar-brand a:visited[href="index.html"] {
 }
 
 /*------------------------Content-delivery--------------------------------------*/
-content{
+
+content .container li,span{
+    font-size: 12pt;
 }
 
 /*------------------------Content-delivery--------------------------------------*/
