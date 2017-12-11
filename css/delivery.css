@@ -57,7 +57,14 @@ nav .navbar-brand a:visited[href="index.html"] {
 
 /*------------------------Content-delivery--------------------------------------*/
 
-content .container li,span{
+content .delivery h1{
+    font-size: 23pt;
+    margin-bottom: 3rem;
+}
+content .delivery{
+    padding: 1rem 5rem;
+}
+content .delivery li,span{
     font-size: 12pt;
 }
 
