@@ -67,7 +67,7 @@ nav .navbar-brand a:visited[href="index.html"] {
     grid-area: sidebar;
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: repeat(4, 1fr);
+    grid-auto-rows: 400px;
     grid-row-gap: .5rem;
     margin-top: 2rem;
 }
@@ -136,7 +136,7 @@ content {
     margin-top: 2rem;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
     grid-auto-rows: auto;
     grid-gap: 20px;
     grid-area: content;
@@ -151,7 +151,10 @@ content {
 .con {
     display: inline-grid;
     grid-template-columns: 65px;
-    grid-template-areas: "img1 img img" "img2 img img" "img3 img img";
+    grid-template-areas:
+    "img1 img img"
+    "img2 img img"
+    "img3 img img";
     grid-gap: 5px;
 }
 
