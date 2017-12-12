@@ -1,0 +1,122 @@
+
+/****************************************************** Адаптив (1200) **************************************************************************************************/
+
+@media screen and (max-width: 1200px) {
+
+}
+
+/****************************************************** Адаптив (992) **************************************************************************************************/
+
+@media screen and (max-width: 1024px) {
+    .logo img {
+        display: none;
+    }
+    .cart p, .heart p {
+        font-size: .7rem;
+    }
+    content .delivery{
+        padding: 0rem 4.4rem;
+    }
+
+}
+
+/****************************************************** Адаптив (768) **************************************************************************************************/
+
+@media screen and (max-width: 768px) {
+    .logo img {
+        display: none;
+    }
+    .cart p, .heart p {
+        font-size: .8rem;
+    }
+    .widget_nav_menu ul li {
+        padding-left: 25%;
+        font-size: .65rem;
+    }
+    .contact{
+        font-size: .85rem;
+    }
+    .title-widget {
+        font-size: 1.15rem;
+    }
+    content .delivery h1{
+        font-size: 19pt;
+    }
+    content .delivery li,span{
+        font-size: 10pt;
+    }
+    content .delivery{
+        padding: 0rem 3.2rem;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    content .delivery h1{
+        font-size: 17pt;
+    }
+    content .delivery li,span{
+        font-size: 9.5pt;
+    }
+    content .delivery{
+        padding: 0rem 2.4rem;
+    }
+    .serch_main{
+        margin:10px 0;
+    }
+
+    .cart img, .heart img {
+        margin-top: .1rem;
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+/****************************************************** Адаптив (480) **************************************************************************************************/
+
+@media screen and (max-width: 480px) {
+
+    .heart span button{
+        width: 4rem;
+        font-size: .8rem;
+    }
+    .logo img {
+        display: none;
+    }
+
+    .title-widget {
+        font-size: .8rem;
+    }
+    .widget_nav_menu ul li {
+        padding-left: 0%;
+        font-size: .6rem;
+    }
+    .contact{
+        font-size: .6rem;
+    }
+
+}
+@media screen and (max-width: 320px) {
+
+    .logo img {
+        display: none;
+    }
+    .cart p, .heart p {
+        font-size: .7rem;
+    }
+    .title-widget {
+        font-size: .8rem;
+    }
+    .widget_nav_menu ul li {
+        font-size: .58rem;
+    }
+    .contact{
+        font-size: .58rem;
+    }
+    content .delivery h1{
+        font-size: 15pt;
+    }
+    content .delivery li,span{
+        font-size: 8.5pt;
+    }
+
+}
