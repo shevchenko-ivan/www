@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width">
+	<title>Shop-Shop</title>
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-media.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<script type="text/javascript" href="js/javascript.js"></script>
+	<script type="text/javascript" href="js/bodstsrap.min.js"></script>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="container-fluid">
+			<nav class="navbar navbar-expand-md navbar-light">
+				<div class="navbar-brand">
+					<a href="index.html">UA</a>
+					<a href="#">RU</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-item nav-link active text-dark" href="#">Магазин</a>
+						<a class="nav-item nav-link text-dark" href="#">Доставка та оплата</a>
+						<a class="nav-item nav-link text-dark" href="#">Новинки</a>
+						<a class="nav-item nav-link text-dark" href="#">Контакти</a>
+					</div>
+					<div class="navbar-nav ml-auto">
+						<a class="nav-item nav-link text-dark" href="#">Увійти</a>
+					</div>
+				</div>
+			</nav>
+			<div class="container-fluid ">
+				<div class="row justify-content-center">
+					<div class="col-xl-3 col-lg-2 col-md-2 col-sm-0 col-0 order-5 order-lg-1  logo">
+						<img src="img/icon.png" alt="">
+					</div>
+					<div class="col-xl-7 col-lg-8 col-md-8 col-sm-8 col-12 align-self-center order-2 order-md-2 bloc2">
+						<div class="input-group serch_main">
+							<input type="text" class="form-control" placeholder="Пошук..." aria-label="Search for...">
+							<span class="input-group-btn">
+							<button class="btn btn-secondary" type="button">Пошук</button>
+						</span>
+						</div>
+					</div>
+					<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-4 order-3 order-md-3 text-center heart">
+						<span class="badge badge-success">3</span>
+						<img class="img-fluid" src="img/heart.png" alt="" href="#">
+						<p>Сподобалось</p>
+					</div>
+					<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-4 order-4 order-md-4 text-center cart">
+						<span class="badge badge-success">1</span>
+						<img class="img-fluid" src="img/cart.png" alt="" href="#">
+						<p>Корзина</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="sidebar">
+			<div class="view">
+				<div>
+					<p class="text-center">Вид</p>
+					<label><input type="checkbox"/><i></i>Блузки</label>
+					<label><input type="checkbox"/><i></i>Брюки</label>
+					<label><input type="checkbox"/><i></i>Гольфи</label>
+					<label><input type="checkbox"/><i></i>Джинси</label>
+					<label><input type="checkbox"/><i></i>Кардігани</label>
+					<label><input type="checkbox"/><i></i>Плаття</label>
+					<label><input type="checkbox"/><i></i>Рубашки</label>
+				</div>
+			</div>
+
+			<div class="size"></div>
+			<div class="price"></div>
+		</div>
+		<content>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Оформлення замовлення</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						</div>
+						<div class="modal-body">
+							...
+						</div>
+						<div class="modal-footer justify-content-center">
+							<button type="button" class="btn  btn-danger">Оформити замовлення</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- tovaru -->
+			<div class="tov ">
+				<div class="con">
+					<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
+					<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				</div>
+				<div class="tov_info ">
+					<p class="text-center text">Платье HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, accusamus.</p>
+					<p class="text-center">Размер: L</p>
+					<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">ЗАМОВИТИ</button>
+				</div>
+			</div>
+			<div class="tov ">
+				<div class="con">
+					<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
+					<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				</div>
+				<div class="tov_info ">
+					<p class="text-center text">Платье HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+					<p class="text-center">Размер: L</p>
+					<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
+				</div>
+			</div>
+			<div class="tov ">
+				<div class="con">
+					<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
+					<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				</div>
+				<div class="tov_info ">
+					<p class="text-center text">Платье HM 0470607 Зеленое </p>
+					<p class="text-center">Размер: L</p>
+				</div>
+				<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
+			</div>
+			<div class="tov ">
+				<div class="con">
+					<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
+					<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				</div>
+				<div class="tov_info ">
+					<p class="text-center text">Платье HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, accusamus.</p>
+					<p class="text-center">Размер: L</p>
+					<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
+				</div>
+			</div>
+			<div class="tov ">
+				<div class="con">
+					<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
+					<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				</div>
+				<div class="tov_info ">
+					<p class="text-center text">Платье HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, accusamus.</p>
+					<p class="text-center">Размер: L</p>
+					<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
+				</div>
+			</div>
+			<div class="tov ">
+				<div class="con">
+					<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
+					<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				</div>
+				<div class="tov_info ">
+					<p class="text-center text">Платье HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, accusamus.</p>
+					<p class="text-center">Размер: L</p>
+					<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
+				</div>
+			</div>
+			<div class="tov ">
+				<div class="con">
+					<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
+					<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				</div>
+				<div class="tov_info ">
+					<p class="text-center text">Платье HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, accusamus.</p>
+					<p class="text-center">Размер: L</p>
+					<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
+				</div>
+			</div>
+			<div class="tov ">
+				<div class="con">
+					<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
+					<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				</div>
+				<div class="tov_info ">
+					<p class="text-center text">Платье HM 0470607 Зеленое</p>
+					<p class="text-center">Размер: L</p>
+					<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
+				</div>
+			</div>
+			<div class="tov ">
+				<div class="con">
+					<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
+					<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				</div>
+				<div class="tov_info ">
+					<p class="text-center text">Платье HM 0470607 Зеленое</p>
+					<p class="text-center">Размер: L</p>
+					<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
+				</div>
+			</div>
+			<div class="tov ">
+				<div class="con">
+					<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
+					<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				</div>
+				<div class="tov_info ">
+					<p class="text-center text">Платье HM 0470607 Зеленое</p>
+					<p class="text-center">Размер: L</p>
+					<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
+				</div>
+			</div>
+			<div class="tov ">
+				<div class="con">
+					<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
+					<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				</div>
+				<div class="tov_info ">
+					<p class="text-center">Платье HM 0470607 Зеленое Lorem ipsum dolor sit amet.</p>
+					<p class="text-center">Размер: L</p>
+					<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
+				</div>
+			</div>
+			<div class="tov ">
+				<div class="con">
+					<div class="img "><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img1"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+					<div class="img2"><img class="img-fluid img-thumbnail" src="img/tovar_mini1.jpg" alt=""></div>
+					<div class="img3"><img class="img-fluid img-thumbnail" src="img/tovar1.jpg" alt=""></div>
+				</div>
+				<div class="tov_info ">
+					<p class="text-center text">Платье HM 0470607 Зеленое</p>
+					<p class="text-center">Размер: L</p>
+					<button type="button" class="btn btn-danger">ЗАМОВИТИ</button>
+				</div>
+			</div>
+
+		</content>
+		<footer>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-4 col-lg-3 widget_nav_menu">
+						<p class="title-widget text-center">Каталог</p>
+						<ul class="list-unstyled">
+							<li><a href="#">Головні убори</a></li>
+							<li><a href="#">Жіночий одяг</a></li>
+							<li><a href="#">Аксесуари</a></li>
+							<li><a href="#">Жіноче взуття</a></li>
+							<li><a href="#">Розпродаж</a></li>
+						</ul>
+					</div>
+					<div class="col-4 col-lg-3 widget_nav_menu">
+						<p class="title-widget text-center">Про нас</p>
+						<ul class="list-unstyled">
+							<li><a href="#">Магазин</a></li>
+							<li><a href="#">Новини</a></li>
+							<li><a href="#">Доставка та оплата</a></li>
+							<li><a href="#">Контакти</a></li>
+						</ul>
+					</div>
+					<div class="col-4 col-lg-3 ">
+						<p class="title-widget">Контакти </p>
+						<div class="contact">
+							<p>Email: mail@gmail.com</p>
+							<p>Оператор +380502232658</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom text-center">
+				<p> © 2017 Усі права захищені</p>
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	</div>
+</body>
+
+</html>
