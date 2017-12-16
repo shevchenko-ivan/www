@@ -1,0 +1,20 @@
+{
+    "00001":{
+        "name" : "Блузки",
+        "const" : 320,
+        "description" :"<Блузки HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur.",
+        "image" : "img/tovar1.jpg"
+    },
+    "00002":{
+        "name" : "Брюки",
+        "const" : 435,
+        "description" :"Брюки HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur.",
+        "image" : "img/tovar_3.jpg"
+    },
+    "00003":{
+        "name" : "Гольфи",
+        "const" : 195,
+        "description" :"Гольфы HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur.",
+        "image" : "img/tovar_2.jpg"
+    }
+}
