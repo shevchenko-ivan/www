@@ -3,6 +3,7 @@ var cart = { }; //Моя корзина
 $('document').ready(function(){
     loadGoods();
     checkCart();
+    showMiniCart();
 });
 
 function loadGoods(){
@@ -16,10 +17,11 @@ function loadGoods(){
                 out+='<button type="button" class="add-to-cart btn btn-danger"data-art=" '+key+' ">ЗАМОВ</button>';
                 out+='</div>';
             }
-            $('#goods').html(out);
+            $('.goods').html(out);
             $('button.add-to-cart').on('click', addToCart);
         });
 }
+
 function addToCart(){
     var articul = $(this).attr('data-art');
     if ( cart[articul] !=undefined){
@@ -30,6 +32,7 @@ function addToCart(){
     }
     localStorage.setItem('cart', JSON.stringify(cart));
     console.log(cart);
+    showMiniCart();
     //Добавлє товар в корзину
 }
 
@@ -37,6 +40,16 @@ function checkCart(){
     //провіряю наявність корзини в localStorage
     if( localStorage.getItem('cart') != null){
         cart = JSON.parse ( localStorage.getItem('cart'));
-    };
+    }
+}
+
+checkCart();
+
+function showMiniCart() {
+    var out = '';
+    for (var w in cart){
+        out += cart[w];
+    }
+    $('#mini-cart').html(out);
 }
     //Загружаю товари на сторінку
