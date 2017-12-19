@@ -1,20 +1,37 @@
-    {
-    "00001" : {
-        "name" : "Блузки",
-        "cost" : 320,
-        "description" :"<Блузки HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur.",
-        "image" : "img/tovar1.jpg"
-    },
-    "00002":{
-        "name" : "Брюки",
-        "cost" : 435,
-        "description" :"Брюки HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur.",
-        "image" : "img/tovar_3.jpg"
-    },
-    "00003":{
-        "name" : "Гольфи",
-        "cost" : 195,
-        "description" :"Гольфы HM 0470607 Зеленое Lorem ipsum dolor sit amet, consectetur.",
-        "image" : "img/tovar_2.jpg"
-    }
+{
+  "1234": {
+    "name": "Яблоки",
+    "cost": 44.2,
+    "description": "Сочные спелы",
+    "order": 3,
+    "img" : "apple.png"
+  },
+  "1235": {
+    "name": "Вишня",
+    "cost": 54.6,
+    "description": "Кислая красная",
+    "order": 5,
+    "img" : "cherry.png"
+  },
+  "1236": {
+    "name": "Виноград",
+    "cost": 94.2,
+    "description": "Сладкий, синий и зеленый",
+    "order": 1,
+    "img" : "grape.png"
+  },
+  "1239": {
+    "name": "Виноград",
+    "cost": 934.2,
+    "description": "Сладкий, синий и зеленый",
+    "order": 31,
+    "img" : "cart.png"
+  },
+  "1237": {
+    "name": "Арбуз",
+    "cost": 23,
+    "description": "Сладкий красный",
+    "order": 8,
+    "img" : "watermelon.png"
+  }
 }
