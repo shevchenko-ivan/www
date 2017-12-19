@@ -26,15 +26,6 @@ function goodsOut(data) {
     }
     $('.goods-out').html(out);
     $('.add-to-cart').on('click', addToCart);
-    $('.add-to-cart').on('click', sum);
-}
-
-function sum() {
-    var i = 0;
-    var x = 0;
-    for (var i; i < addToCart(); i++) {
-    x ++;}
-    console.log(x);
 }
 
 function addToCart() {
@@ -60,7 +51,7 @@ function showMiniCart() {
     //показываю мини корзину
     var out="";
     for (var key in cart) {
-        out += key+'<br>';
+        out += key +' --- '+ cart[key]+'<br>';
     }
     $('.mini-cart').html(out);
 }

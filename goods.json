@@ -20,13 +20,6 @@
     "order": 1,
     "img" : "grape.png"
   },
-  "1239": {
-    "name": "Виноград",
-    "cost": 934.2,
-    "description": "Сладкий, синий и зеленый",
-    "order": 31,
-    "img" : "cart.png"
-  },
   "1237": {
     "name": "Арбуз",
     "cost": 23,

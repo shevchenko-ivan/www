@@ -39,7 +39,7 @@ nav .navbar-brand a:visited[href="index.html"] {
     font-size: 10pt;
 }
 
-.cart-mini span, .heart span {
+.heart span {
     position: absolute;
     margin-left: 2.5rem;
 }
@@ -65,7 +65,7 @@ content {
 }
 
 .goods-out{
-    margin: 20px;
+    margin: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 200px));
     grid-auto-rows: auto;
@@ -112,10 +112,6 @@ content {
 }
 .cart .add-to-cart:active {
     background: red;
-}
-.goods-out {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
 }
 .goods-out::after {
     content: "";
